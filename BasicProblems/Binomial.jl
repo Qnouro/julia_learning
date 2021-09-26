@@ -32,7 +32,9 @@ function sample_binom(nb_samples=200, n=10, p=0.5)
     return mean/nb_samples
 end
 
+function main()
+    println(sample_binom(20000, 10, 0.5))
+end
 
 
-sample_binom(20000, 10, 0.5)
-
+main()
